@@ -1,0 +1,31 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.imply.io/polaris/auth-overview/
+docs: https://docs.imply.io/polaris/auth-overview/
+summary:
+  types: [apiKey, oauth2]
+  api_key_in: [header]
+  api_key_scheme: http-basic (API key passed as the Basic-auth username, no password)
+  oauth2_flows: [clientCredentials]
+schemes:
+  - name: ApiKeyBasicAuth
+    type: http
+    scheme: basic
+    description: >
+      Primary and recommended method. The Polaris API key is passed as the
+      username value in the HTTP Basic Authorization header; no password is
+      provided. API keys never expire, which is why Imply recommends them over
+      OAuth access tokens for programmatic access.
+    docs: https://docs.imply.io/polaris/api-keys
+  - name: OAuth2Bearer
+    type: oauth2
+    description: >
+      Alternative method. An OAuth access token is passed in the Authorization
+      header. Access tokens are short-lived; Imply discourages them for
+      long-lived integrations in favor of API keys.
+    docs: https://docs.imply.io/polaris/oauth
+notes: >
+  Derived-from-docs, not from a captured OpenAPI (the Polaris OpenAPI is rendered
+  client-side via Redoc at docs.imply.io/api/polaris/api-reference and was not
+  retrievable as a static file this pass). API keys are managed via the API Keys
+  v1 resource group and carry role-based permissions.
