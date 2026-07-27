@@ -1,0 +1,6 @@
+# Additional security, compliance, data protection, and privacy information can be found at https://imply.io/trust-center
+
+Contact: mailto:security@imply.io
+Expires: 2028-01-01T05:00:00.000Z
+Preferred-Languages: en
+Canonical: https://imply.io/.well-known/security.txt

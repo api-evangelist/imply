@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/implydata/polaris-cli
+cli:
+  name: polaris-cli
+  vendor: Imply
+  language: java
+  repo: https://github.com/implydata/polaris-cli
+  latest_release: v0.1
+  description: >
+    A command line tool to create and manage Imply SaaS (Polaris) resources.
+  install:
+    - method: github-release
+      detail: Download the binary/JAR from the polaris-cli GitHub releases.
+  surface:
+    - group: resources
+      detail: >
+        Create and manage Imply Polaris SaaS resources (projects, tables, files,
+        ingestion) from the command line, backed by the Polaris REST API.
+notes: >
+  polaris-cli is early-stage (v0.1). The richer programmatic surface is the
+  official Python SDK (polaris-sdk on PyPI). Command groups are not exhaustively
+  documented in a public reference; only verified facts are recorded here.

@@ -1,0 +1,36 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.imply.io/polaris/release/
+url: https://docs.imply.io/polaris/release/
+archive: https://docs.imply.io/polaris/release-archived/
+scheme: date-based continuous deployment (timestamp + alphanumeric build id)
+current_version: v8cc65208 (2026-04-09)
+entries:
+  - version: v8cc65208
+    date: '2026-04-09'
+    breaking: false
+    highlights:
+      - Fixed expression filters on multi-value dimensions.
+      - Fixed Kinesis task live reports.
+  - version: v34caec1d
+    date: '2026-03-16'
+    breaking: false
+    highlights:
+      - Resolved compaction failures and nested column parsing issues.
+      - Fixed realtime ingestion task errors during auto-scaling.
+  - version: v0b903113
+    date: '2026-02-25'
+    breaking: false
+    highlights:
+      - Incorporated all performance enhancements and bug fixes from Apache Druid 36.0.0.
+  - version: v58c1a667
+    date: '2026-01-28'
+    breaking: false
+    highlights:
+      - Introduced band chart visualization.
+      - Enhanced SQL workbench with Dart engine support.
+      - Added custom measure PIVOT_QUERY_INTERVAL.
+notes: >
+  Polaris ships via continuous deployment; it may take a few days after a release
+  date for a new version to reach a given project. Recent-window capture only;
+  the live release-notes page is the source of truth.

@@ -1,8 +1,13 @@
 aid: imply
 name: Imply
-description: Imply is a company surfaced as a portfolio company of a16z, bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Imply is the real-time analytics company founded by the original creators of
+  Apache Druid. Its flagship product, Imply Polaris, is a fully managed
+  database-as-a-service for building real-time analytics applications at scale,
+  offering a REST API to manage tables, files, streaming and batch ingestion,
+  SQL and native queries, dashboards, alerts, collections, and access control.
+  Imply also provides Imply Enterprise and Hybrid for self-managed Apache Druid
+  deployments, backed by SOC 2 Type II, ISO 27001, and HIPAA compliance.
 url: https://raw.githubusercontent.com/api-evangelist/imply/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,17 +16,114 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://imply.io/wp-content/uploads/2023/05/favicon-96x96-imply-data.png
 tags:
 - Company
-apis: []
+- Analytics
+- Real-Time Analytics
+- Database
+- Apache Druid
+- Data
+- DBaaS
+- Streaming
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis:
+- name: Imply Polaris API
+  description: >-
+    REST API for Imply Polaris, the managed Apache Druid DBaaS. Manage tables,
+    files, streaming/batch ingestion jobs, SQL and native queries, dashboards,
+    data cubes, alerts, collections, API keys, network policies, identity, and
+    audit logs. Global resources are org-scoped; regional resources are
+    project-scoped under /v1/projects/PROJECT_ID.
+  humanURL: https://docs.imply.io/api/polaris/api-reference
+  baseURL: https://api.imply.io
+  properties:
+  - type: Documentation
+    url: https://docs.imply.io/polaris/
+  - type: GettingStarted
+    url: https://docs.imply.io/polaris/api-overview/
+  - type: Authentication
+    url: authentication/imply-authentication.yml
 common:
+- type: DomainSecurity
+  url: security/imply-domain-security.yml
 - type: Website
   url: https://imply.io
+- type: DeveloperPortal
+  url: https://imply.io/developer/
+- type: Documentation
+  url: https://docs.imply.io/
+- type: APIReference
+  url: https://docs.imply.io/api/polaris/api-reference
+- type: GettingStarted
+  url: https://docs.imply.io/polaris/quickstart/
+- type: Support
+  url: https://polaris-support.imply.io/hc/en-us
+- type: Blog
+  url: https://imply.io/blog/
+- type: GitHubOrganization
+  url: https://github.com/implydata
+- type: Pricing
+  url: https://imply.io/pricing/
+- type: SignUp
+  url: https://signup.imply.io
+- type: TermsOfService
+  url: https://imply.io/imply-software-license-terms
+- type: PrivacyPolicy
+  url: https://imply.io/privacy/
+- type: StatusPage
+  url: https://status.imply.io
+- type: ChangeLog
+  url: changelog/imply-changelog.yml
+- type: Authentication
+  url: authentication/imply-authentication.yml
+- type: Conventions
+  url: conventions/imply-conventions.yml
+- type: Lifecycle
+  url: lifecycle/imply-lifecycle.yml
+- type: Packages
+  url: packages/imply-packages.yml
+- type: SDKs
+  url: packages/imply-packages.yml
+- type: CLI
+  url: cli/imply-cli.yml
+- type: LLMsTxt
+  url: llms/imply-llms.txt
+- type: WellKnown
+  url: well-known/imply-well-known.yml
+- type: SecurityTxt
+  url: well-known/imply-security.txt
+- type: VulnerabilityDisclosure
+  url: security/imply-vulnerability-disclosure.yml
+- type: Security
+  url: https://imply.io/trust-center
+- type: TrustCenter
+  url: security/imply-trust-center.yml
+- type: Conformance
+  url: conformance/imply-conformance.yml
+- type: Compliance
+  url: https://imply.io/trust-center
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

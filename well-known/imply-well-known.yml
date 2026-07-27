@@ -1,0 +1,20 @@
+generated: '2026-07-19'
+method: searched
+source: https://imply.io/.well-known/security.txt
+host: https://imply.io
+documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: imply-security.txt
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+notes: >
+  Only /.well-known/security.txt is published on the imply.io apex host. The docs
+  (docs.imply.io) and API (api.imply.io) hosts return 404 for all probed
+  /.well-known documents.

@@ -1,0 +1,41 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.imply.io/polaris/api-overview/
+docs: https://docs.imply.io/polaris/api-overview/
+authentication:
+  style: http-basic (API key as username) or OAuth2 bearer token
+  ref: authentication/imply-authentication.yml
+base_urls:
+  global: https://ORGANIZATION_NAME.api.imply.io
+  regional: https://ORGANIZATION_NAME.REGION.CLOUD_PROVIDER.api.imply.io/v1/projects/PROJECT_ID
+  notes: >
+    Global resources (Audit v1, API Keys v1, Identity management v1) are reached
+    on the org-scoped global host; regional resources (Tables, Files, Jobs,
+    Query, Alerts, Collections, Dashboards, etc.) are project-scoped under the
+    regional host with a /v1/projects/PROJECT_ID prefix.
+versioning:
+  scheme: uri-path
+  current: v1
+  platform_release: date-based continuous deployment (see changelog/imply-changelog.yml)
+  ref: lifecycle/imply-lifecycle.yml
+idempotency:
+  supported: unknown
+  notes: >
+    Idempotency-key support is not documented in the Polaris API overview or
+    authentication docs. NOT asserting an idempotency contract (no Idempotency
+    pointer emitted) to avoid fabrication.
+pagination:
+  supported: unknown
+  notes: Pagination parameters/response envelope are not documented in the API overview.
+error_handling:
+  ref: null
+  notes: >
+    A dedicated error/problem-types reference was not captured (no local OpenAPI).
+    Ingestion status has a documented status reference at
+    https://docs.imply.io/polaris/ingestion-status-reference/.
+rate_limits:
+  documented: false
+  notes: No public rate-limit reference located.
+notes: >
+  Cross-cutting semantics captured from the Polaris developer docs. Fields marked
+  unknown were not documented at capture time and are deliberately left unasserted.

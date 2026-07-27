@@ -1,0 +1,30 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.imply.io/polaris/release/
+versioning:
+  scheme: uri-path
+  current: v1
+  platform_release: date-based continuous deployment
+  docs: https://docs.imply.io/polaris/api-overview/
+release_notes:
+  url: https://docs.imply.io/polaris/release/
+  archive: https://docs.imply.io/polaris/release-archived/
+deprecation:
+  policy_url: null
+  sunset_header: unknown
+  notes: >
+    No formal deprecation/sunset policy page located. Some API resource groups
+    are marked deprecated in the reference (Embedding v1, Project v1), but a
+    documented deprecation timeline/policy was not found — no Deprecation pointer
+    emitted to avoid overstating.
+  deprecated_resource_groups:
+    - Embedding v1
+    - Project v1
+sla:
+  url: null
+  uptime_target: null
+status_page: https://status.imply.io
+notes: >
+  Status page (status.imply.io) reports region-specific outages affecting Polaris
+  services and APIs, with incident history and subscribe-to-updates. No local
+  OpenAPI was captured, so operation-level deprecated flags were not derived.

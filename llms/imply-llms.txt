@@ -1,0 +1,34 @@
+# Imply
+
+> Imply is the real-time analytics company founded by the original creators of Apache Druid. Its flagship product, Imply Polaris, is a fully managed database-as-a-service (DBaaS) for building real-time analytics applications, with a REST API to manage tables, files, ingestion jobs, queries, dashboards, and access. Imply also offers Imply Enterprise and Hybrid for self-managed Druid.
+
+## Products
+- [Imply Polaris (managed DBaaS)](https://imply.io/imply-fully-managed-dbaas-polaris/)
+- [Developer Center](https://imply.io/developer/)
+- [Why Imply for Apache Druid](https://imply.io/why-imply/)
+
+## APIs
+- [Polaris API reference](https://docs.imply.io/api/polaris/api-reference)
+- [Developer and API guide (overview)](https://docs.imply.io/polaris/api-overview/)
+- [Authentication overview](https://docs.imply.io/polaris/auth-overview/)
+- [Quickstart](https://docs.imply.io/polaris/quickstart/)
+
+## Docs
+- [Imply Documentation](https://docs.imply.io/)
+- [Polaris introduction](https://docs.imply.io/polaris/)
+- [Polaris plans / billing](https://docs.imply.io/polaris/billing-plans/)
+- [Release notes / changelog](https://docs.imply.io/polaris/release/)
+- [Support center](https://polaris-support.imply.io/hc/en-us)
+
+## SDKs and tools
+- [Python SDK (polaris-sdk on PyPI)](https://pypi.org/project/polaris-sdk/)
+- [polaris-cli (GitHub)](https://github.com/implydata/polaris-cli)
+- [Imply on GitHub (implydata)](https://github.com/implydata)
+
+## Company and trust
+- [Pricing](https://imply.io/pricing/)
+- [Trust Center (SOC 2 Type II, ISO 27001, HIPAA, GDPR)](https://imply.io/trust-center)
+- [Security contact](https://imply.io/.well-known/security.txt)
+- [Status page](https://status.imply.io)
+- [Blog](https://imply.io/blog/)
+- [Sign up](https://signup.imply.io)

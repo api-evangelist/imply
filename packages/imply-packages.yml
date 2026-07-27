@@ -1,0 +1,28 @@
+generated: '2026-07-19'
+method: searched
+source: https://pypi.org/project/polaris-sdk/
+packages:
+  - language: python
+    registry: pypi
+    name: polaris-sdk
+    url: https://pypi.org/project/polaris-sdk/
+    install: pip install polaris-sdk
+    official: true
+    description: >
+      The official Python SDK for Imply Polaris; an abstraction layer over the
+      Polaris REST API for managing tables, files, ingestion jobs, and other
+      Polaris resources.
+  - language: java
+    registry: github
+    name: polaris-cli
+    url: https://github.com/implydata/polaris-cli
+    install: See release assets at https://github.com/implydata/polaris-cli/releases
+    official: true
+    description: >
+      First-party command line tool to create and manage Imply SaaS (Polaris)
+      resources. Distributed as a Java-based CLI (release v0.1). Catalogued in
+      detail under cli/imply-cli.yml.
+notes: >
+  Imply publishes the official Python SDK (polaris-sdk) on PyPI and the polaris-cli
+  on GitHub. Many other implydata GitHub repositories (plywood, druid-query-toolkit,
+  pivot, etc.) are Druid tooling rather than Polaris API client libraries.
