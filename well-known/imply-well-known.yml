@@ -2,7 +2,13 @@ generated: '2026-07-19'
 method: searched
 source: https://imply.io/.well-known/security.txt
 host: https://imply.io
-documents:
+notes: 'Only /.well-known/security.txt is published on the imply.io apex host. The docs (docs.imply.io)
+  and API (api.imply.io) hosts return 404 for all probed /.well-known documents.
+
+  '
+hosts:
+- host: https://imply.io
+  documents:
   - path: /.well-known/security.txt
     status: 200
     file: imply-security.txt
@@ -14,7 +20,8 @@ documents:
     status: 404
   - path: /.well-known/ai-plugin.json
     status: 404
-notes: >
-  Only /.well-known/security.txt is published on the imply.io apex host. The docs
-  (docs.imply.io) and API (api.imply.io) hosts return 404 for all probed
-  /.well-known documents.
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
