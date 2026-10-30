@@ -64,6 +64,101 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Imply is a company surfaced as a portfolio company of a16z, bessemer-venture-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Imply is the real-time analytics company founded by the original creators of Apache Druid. Its flagship product, Imply Polaris, is a fully managed database-as-a-service for building real-time analytics applications at scale, offering a REST API to manage tables, files, streaming and batch ingestion, SQL and native queries, dashboards, alerts, collections, and access control. Imply also provides Imply Enterprise and Hybrid for self-managed Apache Druid deployments, backed by SOC 2 Type II, ISO 27001, and HIPAA compliance.
 
-Backed by: a16z, bessemer-venture-partners — https://imply.io
+**Areas:** Company · Analytics · Real-Time Analytics · Database · Apache Druid · Data · Database-as-a-Service · Streaming
+
+## Imply on APIs.io
+
+Everything profiled for Imply is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/imply/](https://apis.io/providers/imply/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Imply Polaris API](https://apis.io/apis/imply/imply-polaris-api/) — REST API for Imply Polaris, the managed Apache Druid DBaaS. Manage tables, files, streaming/batch ingestion jobs, SQL and native queries, dashboards, data…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Imply Authentication](https://apis.io/security/imply/imply-authentication/)
+- [Imply Domain Security](https://apis.io/security/imply/imply-domain-security/)
+- [Imply Trust Center](https://apis.io/security/imply/imply-trust-center/)
+- [Imply Vulnerability Disclosure](https://apis.io/security/imply/imply-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://imply.io)
+- [Documentation](https://docs.imply.io/)
+- [Getting started](https://docs.imply.io/polaris/quickstart/)
+- [API reference](https://docs.imply.io/api/polaris/api-reference)
+- [Pricing](https://imply.io/pricing/)
+- [Sign up](https://signup.imply.io)
+- [Support](https://polaris-support.imply.io/hc/en-us)
+- [Blog](https://imply.io/resources/blog/)
+- [Security](https://imply.io/trust-center)
+- [Compliance](https://imply.io/trust-center)
+- [Terms of service](https://imply.io/imply-software-license-terms)
+- [Privacy policy](https://imply.io/privacy/)
+- [GitHub](https://github.com/implydata)
+- [Status](https://status.imply.io)
+
+## API Evangelist rating
+
+**Kin Score 41.6** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 44.7 |
+| Developer ergonomics | 69.0 |
+| Access clarity | 47.4 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/imply/](https://apis.io/providers/imply/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Imply: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/imply/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
